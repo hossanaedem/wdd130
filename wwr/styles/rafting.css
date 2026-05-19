@@ -6,10 +6,7 @@
 
 :root {
     --primary-color: #1b4965;
-    --secondary-color: #62b6cb;
     --accent1-color: #cae9ff;
-    --accent2-color: #5fa8d3;
-
     --heading-font: "Georgia", serif;
     --body-font: "Arial", sans-serif;
 }
