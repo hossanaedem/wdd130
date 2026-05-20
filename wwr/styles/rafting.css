@@ -69,8 +69,8 @@ article {
     left: 20px;
     right: 20px;
     padding: 16px;
-    background-color: var(14, 14, 14);
-    color: #fff;
+    background-color: var(0, 0, 205);
+    color: #87ceeb;
     border-radius: 10px;
 }
 
