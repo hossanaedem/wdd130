@@ -1,34 +1,110 @@
 :root {
-    --primary-color: #17346b;      
-    --secondary-color: #f4f4f4;   
-    --accent1-color: #ffffff;      
-    --accent2-color: #000000;      
+    --primary-color: #0B4F6C;
+    --secondary-color: #01BAEF;
+    --accent1-color: #1B1B1E;
+    --accent2-color: #FBFBFF;
 
     --heading-font: Georgia, serif;
     --body-font: Arial, sans-serif;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: var(--secondary-color);
-    color: var(--accent2-color);
-}
-
-.hero h1,
-.history-title,
-.adventure-title {
-    background-color: var(--primary-color);
+    font-family: var(--body-font);
     color: var(--accent1-color);
 }
 
-.hero article {
-    background-color: rgba(23, 52, 107, 0.85);
-    color: var(--accent1-color);
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    align-items: center;
+}
+
+header img {
+    width: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
 }
 
 nav a {
-    color: #1a1a8f;
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: #fff;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+    margin-left: 15px;
+    border: 2px solid var(--primary-color);
 }
 
 footer {
-    border-top: 1px solid #c9c9c9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.socialmedia img {
+    width: 40px;
 }
