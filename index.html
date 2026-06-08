@@ -1,21 +1,26 @@
-<!-- 18 May 2026-->
+<!-- 18 May 2026 -->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="styles/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>HOSSANA EDEM OKON | WDD 130</title>
+
     <meta name="description"
-      content="Describe your home page here using keywords like your name, the course, the purpose of the page.">
+      content="Describe your home page here using keywords like your name, the course, and the purpose of the page.">
     <meta name="author" content="Hossana Edem Okon">
+
+    <link rel="stylesheet" href="styles/styles.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family==Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
+
     <header>
         <nav>
             <a href="#">Home</a>
@@ -24,42 +29,68 @@
             <a href="https://www.facebook.com/share/1GyRyoBe5f/">Facebook</a>
         </nav>
     </header>
-<div class="grid">
-    <main>
-        <h1> HOSSANA EDEM OKON | WDD 130</h1>
-        <img src="images/profile.jpg" alt="Hossana Edem Okon Profile Picture" width="200">
-        <p>Hello there!, my name is Hossana Edem Okon and i am from Nigeria, Akwa ibom state
-            precisely.
-            A dedicated returned missionary with excellent communication, time
-            management and computer/IT skills. Aiming to leverage my abilities to successfully
-            fill any organization. Dependable and reliable, ready to learn and
-            grow with others.</p>
-        <ul class="box indent">
-            <li><a href="https://www.churchofjesuschrist.org/temples/details/aba-nigeria-temple?lang=eng" ''''''
-                  target="_blank">Nigeria,
-                    Aba Temple</a> </li>
 
-            <li><a href="https://www.churchofjesuschrist.org/temples/details/accra-ghana-temple?lang=eng" ''''''
-                  target="_blank">Ghana,
-                    Accra Temple</a> </li>
+    <div class="grid">
 
-            <li><a href="https://www.churchofjesuschrist.org/temples/details/calabar-nigeria-temple?lang=eng" ''''''
-                  target="_blank">Nigeria,
-                    Calabar Temple</a> </li>
-        </ul>
-        </ul>
-    </main>
-    <aside class="box">
-        <h2> Akwa Ibom</h2>
-        <img src="images/akwa-ibom.jpg" alt="Akwa Ibom view">
-        <p>Akwa Ibom is a major oil-producing state in Nigeria' s South-South geopolitical zone,
-            created in 1987 from Cross River State. Known as the "Land of Promise," its
-            capital is Uyo. The state is a major economic hub, rich in oil, gas, and
-            agriculture, with a strong commitment to infrastructure development and peace.
-        </p>
-    </aside>
+        <main>
+
+            <!-- Hero Section -->
+            <section class="hero-home">
+                <img src="wwr/images/rafting_big.jpg" alt="White Water Rafting Adventure">
+                <h1>Experience the Adventure of a Lifetime</h1>
+            </section>
+
+            <!-- Newsletter -->
+            <section class="newsletter">
+                <h2>Join Our Newsletter</h2>
+
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <button type="submit">Subscribe</button>
+                </form>
+            </section>
+
+            <!-- Call to Action -->
+            <section class="cta">
+                <h2>Ready for Your Next Adventure?</h2>
+                <p>Explore our exciting rafting trips and create unforgettable memories.</p>
+                <a href="trips.html" class="btn">View Trips</a>
+            </section>
+
+            <!-- Grid Content -->
+            <section class="home-grid">
+
+                <div class="grid-item">
+                    <img src="wwr/images/raftinghappyclient.jpg" alt="Family rafting trip">
+                    <h3>Our Purpose</h3>
+                    <p>
+                        We provide safe and exciting rafting experiences for families,
+                        groups, and adventure seekers.
+                    </p>
+                </div>
+
+                <div class="grid-item">
+                    <img src="wwr/images/new_history.jpg" alt="Professional rafting guide">
+                    <h3>What We Offer</h3>
+                    <p>
+                        Guided river adventures, expert instructors, quality equipment,
+                        and unforgettable outdoor experiences.
+                    </p>
+                </div>
+
+            </section>
+
+        </main>
+
+    </div> <!-- End .grid -->
+
     <footer>
-        <p>©2026 🌴 Hossana Edem Okon🌴 Akwa Ibom, Nigeria</p>
+        <p>©2026 🌴 Hossana Edem Okon 🌴 Akwa Ibom, Nigeria</p>
     </footer>
 
 </body>
