@@ -1,4 +1,3 @@
-<!-- 18 May 2026 -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,91 +5,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>HOSSANA EDEM OKON | WDD 130</title>
+    <title>White Water Rafting Adventures | Home</title>
 
     <meta name="description"
-      content="Describe your home page here using keywords like your name, the course, and the purpose of the page.">
+      content="Experience exciting white water rafting adventures with professional guides, family-friendly trips, and unforgettable outdoor experiences.">
     <meta name="author" content="Hossana Edem Okon">
-
-    <link rel="stylesheet" href="styles/styles.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body>
 
     <header>
         <nav>
-            <a href="#">Home</a>
-            <a href="wwr/">Rafting Website</a>
-            <a href="https://www.linkedin.com/in/hossana-okon-4aba1229a">LinkedIn</a>
-            <a href="https://www.facebook.com/share/1GyRyoBe5f/">Facebook</a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
         </nav>
     </header>
 
-    <div class="grid">
+    <main>
 
-        <main>
+        <!-- Hero Section -->
+        <section class="hero-home">
+            <img src="images/rafting_big.jpg" alt="White Water Rafting Adventure">
+            <h1>Experience the Adventure of a Lifetime</h1>
+        </section>
 
-            <!-- Hero Section -->
-            <section class="hero-home">
-                <img src="wwr/images/rafting_big.jpg" alt="White Water Rafting Adventure">
-                <h1>Experience the Adventure of a Lifetime</h1>
-            </section>
+        <!-- Newsletter Section -->
+        <section class="newsletter">
+            <h2>Join Our Newsletter</h2>
 
-            <!-- Newsletter -->
-            <section class="newsletter">
-                <h2>Join Our Newsletter</h2>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
 
-                <form>
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
 
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
 
-                    <button type="submit">Subscribe</button>
-                </form>
-            </section>
+        <!-- Call to Action -->
+        <section class="cta">
+            <h2>Ready for Your Next Adventure?</h2>
+            <p>
+                Explore our exciting rafting trips and create unforgettable memories.
+            </p>
+            <a href="trips.html" class="btn">View Trips</a>
+        </section>
 
-            <!-- Call to Action -->
-            <section class="cta">
-                <h2>Ready for Your Next Adventure?</h2>
-                <p>Explore our exciting rafting trips and create unforgettable memories.</p>
-                <a href="trips.html" class="btn">View Trips</a>
-            </section>
+        <!-- Company Information Grid -->
+        <section class="home-grid">
 
-            <!-- Grid Content -->
-            <section class="home-grid">
+            <div class="grid-item">
+                <img src="images/raftinghappyclient.jpg" alt="Family rafting trip">
 
-                <div class="grid-item">
-                    <img src="wwr/images/raftinghappyclient.jpg" alt="Family rafting trip">
-                    <h3>Our Purpose</h3>
-                    <p>
-                        We provide safe and exciting rafting experiences for families,
-                        groups, and adventure seekers.
-                    </p>
-                </div>
+                <h3>Our Purpose</h3>
 
-                <div class="grid-item">
-                    <img src="wwr/images/new_history.jpg" alt="Professional rafting guide">
-                    <h3>What We Offer</h3>
-                    <p>
-                        Guided river adventures, expert instructors, quality equipment,
-                        and unforgettable outdoor experiences.
-                    </p>
-                </div>
+                <p>
+                    We provide safe and exciting rafting experiences for families,
+                    groups, and adventure seekers.
+                </p>
+            </div>
 
-            </section>
+            <div class="grid-item">
+                <img src="images/new_history.jpg" alt="Professional rafting guide">
 
-        </main>
+                <h3>What We Offer</h3>
 
-    </div> <!-- End .grid -->
+                <p>
+                    Guided river adventures, expert instructors, quality equipment,
+                    and unforgettable outdoor experiences.
+                </p>
+            </div>
+
+        </section>
+
+    </main>
 
     <footer>
-        <p>©2026 🌴 Hossana Edem Okon 🌴 Akwa Ibom, Nigeria</p>
+        <p>&copy; 2026 🌴 Hossana Edem Okon 🌴 Akwa Ibom, Nigeria</p>
     </footer>
 
 </body>
